@@ -1,0 +1,74 @@
+.l-table-wp {
+  width: 100%;
+  margin-top: 30px\9;
+}
+.l-table-wp .l-table-c {
+  width: 899px;
+}
+.l-table-wp .l-table-c table {
+  border-collapse: separate;
+  empty-cells: show;
+  table-layout: fixed;
+  border-spacing: 15px;
+  width: 100%;
+}
+.l-table-wp .l-table-c table td {
+  width: 427px;
+  height: 200px;
+}
+.l-table-wp .l-table-c table td .l-box {
+  width: 100%;
+  height: 100%;
+}
+.l-table-wp .l-table-c table td .l-box h3 {
+  width: 90%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5%;
+}
+.l-table-wp .l-table-c table td .l-box div {
+  width: 100%;
+}
+.l-table-wp .l-table-c table td .l-box div p {
+  width: 96%;
+  height: 60px;
+  margin: 20px auto 0;
+  overflow: hidden;
+}
+.l-table-wp .l-table-c table td .l-box div a {
+  display: block;
+  margin-left: 9px;
+  width: 40px;
+}
+.l-table-wp .l-table-c table td .l-box div span {
+  display: block;
+  margin: 31px auto 0;
+  width: 34%;
+  width: 29% \9;
+  height: 30px;
+  line-height: 30px;
+}
+.l-table-wp .l-table-c table td .sk-box {
+  background-color: #f8f8f8;
+}
+.l-table-wp .l-table-c table td .sk-box h3 {
+  vertical-align: middle;
+  font-size: 1.6em;
+  color: #849bae;
+  background-color: #202a32;
+}
+.l-table-wp .l-table-c table td .sk-box div p {
+  color: #4C4F55;
+  font-size: 1.4em;
+}
+.l-table-wp .l-table-c table td .sk-box div a {
+  color: #00bff3;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.l-table-wp .l-table-c table td .sk-box div span {
+  text-align: right;
+  vertical-align: middle;
+  background: url("../../img/date-icon.jpg") 0px 4px no-repeat;
+  color: #a7a7a7;
+}

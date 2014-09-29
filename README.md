@@ -1,0 +1,2 @@
+基于express的虚拟主机，只需在vhost.config.json里面添加域名与应用路径的映射即可，
+ps:当你的域名没有dns时需要配置host，建议使用fiddler。

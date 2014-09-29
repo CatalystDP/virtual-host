@@ -1,0 +1,95 @@
+.clearfix {
+    clear: both;
+}
+
+/*清除浮动*/
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*居中*/
+.text-horizon-align-center {
+    text-align: center;
+}
+
+.text-horizon-align-left {
+    text-align: left;
+}
+
+.text-horizon-align-right {
+    text-align: right;
+}
+
+.align-left {
+    margin-left: 0;
+}
+
+/*左对齐*/
+.align-right {
+    margin-right: 0;
+}
+
+/*右对齐，和center合起来使用*/
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.visable {
+    visibility: visible;
+}
+
+/*显示*/
+
+.hidden {
+    display: none;
+}
+
+/*隐藏*/
+
+.display-block {
+    display: block;
+}
+
+/*改为块元素显示*/
+.display-inline {
+    display: inline;
+}
+
+/*行内元素*/
+.display-inline-block {
+    display: inline-block;
+}
+
+/*行内块*/
+
+/*改变position*/
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.v-marginfix {
+    width: 100%;
+    height: 1px;
+}
+
+/*为bootstrap栅格布局全屏布局修复类*/
+.fix-full-layout {
+    padding: 0 15px;
+}
+
+/**/
