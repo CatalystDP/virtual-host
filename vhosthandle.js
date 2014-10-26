@@ -11,8 +11,10 @@ var host=vhost_config.host;
 for(var p in host){
     if(host.hasOwnProperty(p)){
         filePath=path.join('website',host[p],'app.js');
-		app=require('./'+filePath);
-        fs.existsSync(path.join(__dirname,filePath)) && typeof app =='function' && router.use(vhost(p,app));
+		if(fs.existsSync(filePath)){
+			app=require('./'+filePath);
+			fs.existsSync(path.join(__dirname,filePath)) && typeof app =='function' && router.use(vhost(p,app));
+		}
     }
 }
 
